@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey-form</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">  
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="https://static.thenounproject.com/png/62578-200.png" alt="Logo" class="logo">
+      <div class="form-container"><div class="center-text"> <h1 id="title">Travel Kenya <br></h1>
+      
+ <form id="survey-form"><h2>survey-form</h2><p id='description'>please fill the form and begin your journey</p>
+    </div>
+    <div class="menu">
+     <fieldset> <label id='name-label' for="name">Full name<input placeholder="Name " name="name" type="text" id='name' required></input></label><br>
+      <label id='phone-label' for="phone">Phone number<input placeholder="+254 7123545678 "  name="phone" type='number' id='phone'required></input></label><br>
+      <label id='email-label' for="email">Email<input placeholder="enter your working email "  name="email" type="email" id='email' required></input></label><br>
+      <label id='number-label' for="age">Age<input placeholder="How old are you" name="age" type="number" id='number' min="18" max="120" required></input></label><br>
+      <label id='reason-label' for='reason'>Reason for travel <select name="reason" id="dropdown"><option value="0">(Select one)</option value="1"><option>Business or Work</option><option value="2">Visiting Friends or Relatives</option><option value="3">Vacation or Leisure</option><br>
+ </select>    </fieldset><legend></legend><fieldset><legend class="legend"> Prefered activities(required)</legend>
+        <label for="Mountain-trekking"><input id="Mountain-trekking" type="radio" name="activity1" class="inline" checked /> Mountain trekking</label><br>
+        <label for="Safari-Adventure"><input id="Safari-Adventure" type="radio" name="activity1" class="inline" /> Safari Adventure</label><br><label for="Coastal-Retreat"><input id="Coastal-Retreat" type="radio" name="activity2" class="inline" checked /> Coastal Retreat</label><br>
+        <label for="Cultural-Experience"><input id="Cultural-Experience" type="radio" name="activity2" class="inline" /> Cultural Experience</label></fieldset><legend class="legend"> Feedback</legend><label for="bio">What are our best and least favourite aspects:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="feel free to say anything about your experience"></textarea>
+        </label> <input type="submit" value="Submit" />
+      </div>
+ </form></div>
+</body>
+</html>
+       
