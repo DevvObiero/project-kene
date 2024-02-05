@@ -1,0 +1,132 @@
+
+body {
+    background-size: cover;}
+
+
+h1,h2{font-family:'Roboto', sans-serif;
+font-color:beige;
+text-align: center;}
+
+.form-container{
+  width: 70%;
+  background-color: b48c36;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(244, 164, 96, 0.5);
+  }
+
+.logo {
+        max-width: 80px;}
+h1{font-size: 45px;
+text-align: center;} }
+
+title{margin-top:;
+text-align: center;}
+
+p{color: #b48c36;
+font-family:'Roboto';
+text-align: center;}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: rgba(244, 164, 96, 0.5)}
+
+  .inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;}
+
+  input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;margin-right: 5px; 
+    margin-left: 0;
+    vertical-align: middle; 
+
+}
+
+.form-container {
+    background-image: url('https://images.unsplash.com/photo-1700604888475-38b91a2bf931?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto; /* Makes the container scrollable */
+    height: 4000px; 
+    background-size: cover;
+    background-position: center; 
+     z-index: 1;
+    width: 100%; /* Full screen width */
+    height: 150vh; /* Full screen height */
+  
+
+
+}
+.logo {position: absolute; 
+    z-index: 2;
+    
+}
+
+.legend{ text-align: center;}
+
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+.submit-button {
+  background-color: #d2b48c; /* this if for Sand color i just love it */
+  color: black; 
+  border: 1px solid #8b795e;
+  border-radius: 5px; /* Rounded corners for a more button-like appearance */
+  padding: 10px 20px;
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+submit-button:hover{
+  background-color: #c0a080; /*  to Darken the color on hover */
+}
+/* Add this to your styles.css or in a style tag in the head of your HTML document */
+#survey-form label[for="yes"], #survey-form label[for="No"] {
+    display: inline-block; /* Display the labels as inline-block to make them appear on the same line */
+    width: 48%; /* Set a width to make them take up a portion of the container */
+}
+
+#survey-form label[for="yes"] {
+    text-align: right; /* Align the "Yes" label to the right */
+}
+
+#survey-form label[for="No"] {
+    text-align: left; /* Align the "No" label to the left */
+}
+
+#survey-form input[type="radio"] {
+    vertical-align: middle; /* Align radio buttons vertically */
+}
+center-text{}
+#survey-form label,
+#survey-form p,
+#survey-form textarea {
+    text-indent: 10px; /* Adjust the value as needed */
+}
+/* Add this to your styles.css or in a style tag in the head of your HTML document */
+#survey-form input[type="text"],
+#survey-form input[type="number"],
+#survey-form input[type="email"],
+#survey-form textarea,
+#survey-form select {
+    padding-left: 10px; /* Adjust the value as needed */
+    box-sizing: border-box;
+}
+
+#survey-form legend {
+    text-align: center;
+}
+/* Add this to your styles.css */
+#survey-form fieldset legend {
+    text-align: center;
+}
