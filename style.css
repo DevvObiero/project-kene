@@ -19,9 +19,9 @@ text-align: center;}
 .logo {
         max-width: 80px;}
 h1{font-size: 45px;
-text-align: center;} }
+text-align: center;} 
 
-title{margin-top:;
+title{margin-top:0;
 text-align: center;}
 
 p{color: #b48c36;
@@ -107,7 +107,7 @@ submit-button:hover{
 #survey-form input[type="radio"] {
     vertical-align: middle; /* Align radio buttons vertically */
 }
-center-text{}
+
 #survey-form label,
 #survey-form p,
 #survey-form textarea {
